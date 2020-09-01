@@ -6,4 +6,62 @@
 
 .grid-container {
     display: grid;
+    grid-template-areas:
+    "header header"
+    "top top"
+    "mid1 mid1"
+    "mid2 mid2"
+    "mid3 mid3"
+    "mid4 mid4"
+    "bottom bottom"
+    "footer footer";
+
+}
+
+header {
+    background-color: red;
+    grid-area: header;
+    height: 200px;
+}
+
+.top {
+    background-color: orange;
+    grid-area: top;
+    height: 200px;
+}
+
+.mid1 {
+    background-color: yellow;
+    grid-area: mid1;
+    height: 200px;
+}
+
+.mid2 {
+    background-color: green;
+    grid-area: mid2;
+    height: 200px;
+}
+
+.mid3 {
+    background-color: blue;
+    grid-area: mid3;
+    height: 200px;
+}
+
+.mid4 {
+    background-color: purple;
+    grid-area: mid4;
+    height: 200px;
+}
+
+.bottom {
+    background-color: pink;
+    grid-area: bottom;
+    height: 200px;
+}
+
+footer {
+    background-color: cyan;
+    grid-area: footer;
+    height: 200px;
 }
