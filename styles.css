@@ -21,43 +21,75 @@
 header {
     background-color: red;
     grid-area: header;
-    height: 200px;
+    height: 250px;
+    background-image: url(img/AlaskaMountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+img {
+    height: 100px;
 }
 
 .top {
     background-color: orange;
     grid-area: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 200px;
 }
 
 .mid1 {
     background-color: yellow;
     grid-area: mid1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 200px;
+    margin: 0 30px;
 }
 
 .mid2 {
     background-color: green;
     grid-area: mid2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 200px;
+    margin: 0 30px;
 }
 
 .mid3 {
     background-color: blue;
     grid-area: mid3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 200px;
+    margin: 0 30px;
 }
 
 .mid4 {
     background-color: purple;
     grid-area: mid4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 200px;
+    margin: 0 30px;
 }
 
 .bottom {
     background-color: pink;
     grid-area: bottom;
     height: 200px;
+    background-image: url(img/AlaskaMountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
