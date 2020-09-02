@@ -64,18 +64,16 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 60px 60px 0 60px;
     text-align: center;
 }
 
 .top p {
     font-size: 1.25rem;
+    line-height: 1.75;
 }
 
 .mid-text-component {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     height: 50%;
     padding: 0 30px;
 }
@@ -83,6 +81,7 @@ h3 {
 .mid-text-component p {
     font-size: 1.2rem;
     line-height: 2;
+    padding: 40px 0;
 }
 
 .mid-text-component a {
