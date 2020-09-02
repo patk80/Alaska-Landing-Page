@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #fff;
 }
 
 .grid-container {
@@ -23,9 +24,8 @@ body {
 }
 
 header {
-    background-color: red;
     grid-area: header;
-    height: 250px;
+    height: 40vh;
     background-image: url(img/AlaskaMountain.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,13 +54,15 @@ h3 {
 }
 
 .top {
-    background-color: orange;
+    background-color: #fff;
     grid-area: top;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 200px;
+    padding: 60px;
+    text-align: center;
 }
 
 .top p {
@@ -89,7 +91,7 @@ h3 {
 }
 
 .mid1 {
-    background-color: yellow;
+    background-color: #fff;
     grid-area: mid1;
     display: flex;
     justify-content: space-around;
@@ -106,7 +108,7 @@ h3 {
 }
 
 .mid2 {
-    background-color: green;
+    background-color: #fff;
     grid-area: mid2;
     display: flex;
     justify-content: space-around;
@@ -123,7 +125,7 @@ h3 {
 }
 
 .mid3 {
-    background-color: blue;
+    background-color: #fff;
     grid-area: mid3;
     display: flex;
     justify-content: space-around;
@@ -141,7 +143,7 @@ h3 {
 }
 
 .mid4 {
-    background-color: purple;
+    background-color: #fff;
     grid-area: mid4;
     display: flex;
     justify-content: space-around;
@@ -159,16 +161,16 @@ h3 {
 }
 
 .bottom {
-    background-color: pink;
     grid-area: bottom;
-    height: 200px;
+    height: 400px;
     background-image: url(img/AlaskaMountain.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 footer {
-    background-color: cyan;
+    background-color: #000;
+    color: #fff;
     grid-area: footer;
     height: 200px;
 }
