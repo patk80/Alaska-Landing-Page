@@ -25,6 +25,9 @@ body {
 
 header {
     grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 40vh;
     background-image: url(img/AlaskaMountain.jpg);
     background-repeat: no-repeat;
@@ -35,8 +38,9 @@ header {
 
 h1 {
     color: #ff6600;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 900;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
 }
 
@@ -162,15 +166,30 @@ h3 {
 
 .bottom {
     grid-area: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
     height: 400px;
     background-image: url(img/AlaskaMountain.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0 50px;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 2.5;
+    font-weight: 800;
 }
 
 footer {
     background-color: #000;
     color: #fff;
     grid-area: footer;
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    padding: 20px 0;
 }
