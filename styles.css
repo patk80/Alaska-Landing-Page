@@ -34,18 +34,21 @@ header {
 }
 
 h1 {
+    color: #ff6600;
     font-size: 3rem;
     font-weight: 900;
     text-transform: uppercase;
 }
 
 h2 {
+    color: #000066;
     font-size: 2.5rem;
     font-weight: 800;
     margin: 20px 0;
 }
 
 h3 {
+    color: #000080;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -78,9 +81,11 @@ h3 {
 }
 
 .mid-text-component a {
+    color: #ff6600;
     font-size: 1rem;
     font-weight: 900;
     letter-spacing: 0.15em;
+    text-decoration: none;
 }
 
 .mid1 {
