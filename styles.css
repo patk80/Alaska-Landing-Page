@@ -202,6 +202,10 @@ footer p {
         padding-top: 25px;
     }
 
+    .top p {
+        padding: 0;
+    }
+
     .mid-text-component {
         text-align: center;
     }
