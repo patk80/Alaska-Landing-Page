@@ -210,7 +210,10 @@ footer p {
         text-align: center;
     }
 
-    .mid1 {
+    .mid1,
+    .mid2,
+    .mid3,
+    .mid4 {
         flex-direction: column;
     }
 
@@ -221,23 +224,9 @@ footer p {
         width: 80%;
     }
 
-    .mid2 {
-        flex-direction: column;
-    }
-
-    .img-mid2 {
-        order: -1;
-    }
-
-    .mid3 {
-        flex-direction: column;
-    }
-
-    .mid4 {
-        flex-direction: column;
-    }
-
+    .img-mid2,
     .img-mid4 {
         order: -1;
     }
+
 }
