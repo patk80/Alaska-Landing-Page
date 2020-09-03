@@ -190,3 +190,50 @@ footer {
 footer p {
     padding: 20px 0;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    h3 {
+        padding-top: 25px;
+    }
+
+    .mid-text-component {
+        text-align: center;
+    }
+
+    .mid1 {
+        flex-direction: column;
+    }
+
+    .img-mid1,
+    .img-mid2,
+    .img-mid3,
+    .img-mid4 {
+        width: 80%;
+    }
+
+    .mid2 {
+        flex-direction: column;
+    }
+
+    .img-mid2 {
+        order: -1;
+    }
+
+    .mid3 {
+        flex-direction: column;
+    }
+
+    .mid4 {
+        flex-direction: column;
+    }
+
+    .img-mid4 {
+        order: -1;
+    }
+}
