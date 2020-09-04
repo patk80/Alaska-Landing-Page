@@ -166,16 +166,21 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000066;
+    color: #ff6600;
     height: 400px;
     background-image: url(img/AlaskaMountain3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 50px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 2.5;
-    font-weight: 800;
+    font-weight: 900;
+}
+
+.bottom p a {
+    color: #000066;
+    text-decoration: none;
 }
 
 footer {
