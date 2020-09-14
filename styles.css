@@ -93,6 +93,14 @@ h3 {
     letter-spacing: 0.15em;
     text-decoration: none;
     text-transform: uppercase;
+    border-radius: 50px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.mid-text-component a:hover {
+    background-color: #ff6600;
+    color: #fff;
 }
 
 .mid1 {
