@@ -177,9 +177,10 @@ h3 {
 .bottom {
     grid-area: bottom;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #ff6600;
+    color: #000;
     height: 400px;
     background-image: url(img/AlaskaMountain3.jpg);
     background-repeat: no-repeat;
@@ -188,7 +189,7 @@ h3 {
     text-align: center;
     font-size: 2rem;
     line-height: 2.5;
-    font-weight: 900;
+    font-weight: 300;
 }
 
 .bottom p a {
