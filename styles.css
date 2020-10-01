@@ -193,8 +193,17 @@ h3 {
 }
 
 .bottom p a {
-    color: #000066;
+    color: #fff;
+    background-color: #000066;
     text-decoration: none;
+    border-radius: 50px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.bottom p a:hover {
+    background-color: #ff6600;
+    color: #fff;
 }
 
 footer {
