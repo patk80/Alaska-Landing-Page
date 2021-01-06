@@ -267,4 +267,20 @@ footer p {
         letter-spacing: 0.1em;
     }
 
+    .bottom {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+}
+
+@media only screen and (max-width: 620px) {
+/* 
+    .mid1,
+    .mid2,
+    .mid3,
+    .mid4 {
+        padding: 0;
+    } */
+
 }
