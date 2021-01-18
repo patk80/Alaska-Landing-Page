@@ -54,7 +54,7 @@ h2 {
     color: #000066;
     font-size: 3.5rem;
     font-weight: 800;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 h3 {
@@ -70,7 +70,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 60px 0 60px;
+    padding: 3.75rem 3.75rem 0 3.75rem;
     text-align: center;
 }
 
@@ -82,13 +82,13 @@ h3 {
 
 .mid-text-component {
     height: 50%;
-    padding: 0 30px;
+    padding: 0 1.87rem;
 }
 
 .mid-text-component p {
     font-size: 1.2rem;
     line-height: 2;
-    padding: 40px 0;
+    padding: 2.5rem 0;
 }
 
 .mid-text-component a {
@@ -98,8 +98,8 @@ h3 {
     letter-spacing: 0.15em;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 50px;
-    padding: 10px;
+    border-radius: 3.125rem;
+    padding: 0.625rem;
     transition: all 0.5s;
 }
 
@@ -114,14 +114,14 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 70px 30px 100px 30px;
+    padding: 4.375rem 1.875rem 6.25rem 1.875rem;
     text-align: left;
 }
 
 .img-mid1 {
     width: 40%;
     height: auto;
-    margin: 0 30px;
+    margin: 0 1.875rem;
 }
 
 .mid2 {
@@ -130,14 +130,14 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 70px 30px;
+    padding: 4.375rem 1.875rem;
     text-align: right;
 }
 
 .img-mid2 {
     width: 45%;
     height: auto;
-    margin: 0 30px;
+    margin: 0 1.875rem;
 }
 
 .mid3 {
@@ -146,15 +146,15 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 30px;
-    padding: 70px 30px;
+    padding: 0 1.875rem;
+    padding: 4.375rem 1.875rem;
     text-align: left;
 }
 
 .img-mid3 {
     width: 50%;
     height: auto;
-    margin: 0 30px;
+    margin: 0 1.875rem;
 }
 
 .mid4 {
@@ -163,15 +163,15 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 30px;
-    padding: 70px 30px;
+    padding: 0 1.875rem;
+    padding: 4.375rem 1.875rem;
     text-align: right;
 }
 
 .img-mid4 {
     width: 45%;
     height: auto;
-    margin: 0 30px;
+    margin: 0 1.875rem;
 }
 
 .bottom {
@@ -181,11 +181,11 @@ h3 {
     justify-content: center;
     align-items: center;
     color: #000;
-    height: 335px;
+    height: 21rem;
     background-image: url(img/AlaskaMountain3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 50px;
+    padding: 0 3.125rem;
     text-align: center;
     font-size: 2rem;
     line-height: 2.5;
@@ -196,8 +196,8 @@ h3 {
     color: #fff;
     background-color: #000066;
     text-decoration: none;
-    border-radius: 50px;
-    padding: 10px;
+    border-radius: 3.125rem;
+    padding: 0.625rem;
     transition: all 0.5s;
 }
 
@@ -216,13 +216,13 @@ footer {
 }
 
 footer p {
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 @media only screen and (max-width: 1200px) {
 
     h3 {
-        padding-top: 25px;
+        padding-top: 1.563rem;
     }
 
     .top p {
@@ -247,6 +247,7 @@ footer p {
     .img-mid3,
     .img-mid4 {
         width: 80%;
+        margin: 0;
     }
 
     .img-mid2,
